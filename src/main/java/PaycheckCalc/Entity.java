@@ -21,9 +21,8 @@ public abstract class Entity {
 
     @Override
     public String toString() {
-        return "Entity{" +
-                "city='" + city + " " + amountReceived() +
-                '}';
+        return "The city is " + city +
+                " and the amount: " + amountReceived() + "\n";
     }
 
     public abstract double amountReceived();
